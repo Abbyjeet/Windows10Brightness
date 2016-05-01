@@ -13,6 +13,8 @@ namespace Windows10Brightness
 
         public HiddenForm()
         {
+            WindowState = FormWindowState.Minimized;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Opacity = 0;
             ShowInTaskbar = false;
 
@@ -21,6 +23,7 @@ namespace Windows10Brightness
             RegisterHotKey(Handle, GetType().GetHashCode(), 8, (int)Keys.F6);
 
             Visible = false;
+            Hide();
         }
 
         ~HiddenForm()
