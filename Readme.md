@@ -10,3 +10,6 @@ Help:
 	Press Win + F5 to Decrease brightness
 
 	Press Win + F6 to Increase brightness
+
+\**If this application fails to run, unblock it from the properties as shown in the screenshot.*
+![Unblock exe](https://github.com/Abbyjeet/Windows10Brightness/raw/master/UnblockWindows10Brightness.png)
